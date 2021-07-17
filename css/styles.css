@@ -1,3 +1,85 @@
 body {
-  color: #2a2a2a;
+  color: #212121;
+  background: #e5e5e5;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/* Logo*/
+.site .web {
+  color: #2196f3;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 119%;
+}
+/* Ralewary */
+.site .studio {
+  color: #000000;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 119%;
+}
+/* Nav-links */
+.nav-links .link {
+  color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 114%;
+}
+.nav-links .location {
+  color: #2196f3;
+}
+.nav-links .link:hover,
+.nav-links .link:focus {
+  color: #2196f3;
+}
+/* Contacts */
+.contacts .link {
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 114%;
+}
+/* Buttons */
+.buttons .text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 162%;
+}
+.buttons .filter :hover,
+.buttons .filter :focus {
+  background-color: #2196f3;
+  color: #ffffff;
+  cursor: pointer;
+}
+/*  */
+.publication .titel {
+  color: #212121;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 200%;
+}
+.publication .category {
+  color: #757575;
+  font-size: 16px;
+  line-height: 30px;
+}
+/* Footer */
+.site-footer .web {
+  color: #2196f3;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 119%;
+}
+/* Ralewary */
+.site-footer .studio {
+  color: #000000;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 119%;
 }

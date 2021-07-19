@@ -8,8 +8,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-        <title>Web Studio</title>
         <link rel="stylesheet" href="./css/styles.css" />
+        <title>Web Studio</title>
     </head>
 
     <body>
@@ -48,32 +48,23 @@
         <main>
             <!-- Buttons -->
            <section>
+               <h1 hidden>Portfolio</h1>
                <ul class="buttons">    
-                   <li>
-                       <button class="filter" type="button">
-                           <p class="text">Все</p>
-                       </button>
-                   </li>
-                   <li>
-                       <button class="filter" type="button">
-                           <p class="text">Веб-сайты</p>
-                       </button>
-                   </li>
-                   <li>
-                       <button class="filter" type="button">
-                           <p class="text">Приложения</p>
-                       </button>
-                   </li>
-                   <li>
-                       <button class="filter" type="button">
-                           <p class="text">Дизайн</p>
-                       </button>
-                   </li>
-                   <li>
-                       <button class="filter" type="button">
-                           <p class="text">Маркетинг</p>
-                       </button>
-                   </li>
+                    <li class="filter">
+                        <button type="button">Все</button>
+                    </li>
+                    <li class="filter">
+                        <button type="button">Веб-сайты</button>
+                    </li>
+                    <li class="filter">
+                        <button type="button">Приложения</button>
+                    </li>
+                    <li class="filter">
+                        <button type="button">Дизайн</button>
+                    </li>
+                    <li class="filter">
+                        <button type="button">Маркетинг</button>
+                    </li>
                </ul>
            </section>
            <!-- Portfolio -->
@@ -82,63 +73,63 @@
                    <li class="post">
                        <a href="#">
                        <img src="./images/technokryak.jpg" alt="Образец сайта на мониторе ноутбука" width="370"  height="294">
-                       <h2 class="titel">Технокряк</h2>
+                       <h2 class="title">Технокряк</h2>
                        <p class="category">Веб-сайт</p>
                        </a>
                    </li>
                    <li class="post">
                        <a href="#">
                        <img src="./images/orlean_golden.jpg" alt="Два баскетболиста в прыжке, с мячом" width="370"  height="294">
-                       <h2 class="titel">Постер New Orlean vs Golden Star</h2>
+                       <h2 class="title">Постер New Orlean vs Golden Star</h2>
                        <p class="category">Дизайн</p>
                        </a>
                    </li>
                    <li class="post">
                        <a href="#">
                        <img src="./images/seafood.jpg" alt="Логотип ресторана" width="370"  height="294">
-                       <h2 class="titel">Ресторан Seafood</h2>
+                       <h2 class="title">Ресторан Seafood</h2>
                        <p class="category">Приложение</p>
                        </a>
                    </li>
                    <li class="post">
                        <a href="#">
                        <img src="./images/project_prime.jpg" alt="Черные наушники" width="370"  height="294">
-                       <h2 class="titel">Проект Prime</h2>
+                       <h2 class="title">Проект Prime</h2>
                        <p class="category">Маркетинг</p>
                        </a>
                    </li>
                    <li class="post">
                        <a href="#">
                        <img src="./images/project_boxes.jpg" alt="Черная и коричневая коробки" width="370" height="294">
-                       <h2 class="titel">Проект Boxes</h2>
+                       <h2 class="title">Проект Boxes</h2>
                        <p class="category">Приложениеr</p>
                        </a>
                    </li>
                    <li class="post">
                        <a href="#">
                        <img src="./images/inspiration_n_borders.jpg" alt="Монитор с картой планеты" width="370" height="294">
-                       <h2 class="titel">Inspiration has no Borders</h2>
+                       <h2 class="title">Inspiration has no Borders</h2>
                        <p class="category">Веб-сайт</p>
                        </a>
                    </li>
                    <li class="post">
                        <a href="#">
                        <img src="./images/limited_edition.jpg" alt="Развернутый журнал" width="370" height="294">
-                       <h2 class="titel">Издание Limited Edition</h2>
+                       <h2 class="title">Издание Limited Edition</h2>
                        <p class="category">Дизайн</p>
                        </a>
                    </li>
                    <li class="post">
                        <a href="#">
                        <img src="./images/project_lab.jpg" alt="Бирка" width="370" height="294">
-                       <h2 class="titel">Проект LAB</h2>
+                       <h2 class="title">Проект LAB</h2>
                        <p class="category">Маркетинг</p>
                        </a>
                    </li>
                    <li class="post">
                        <a href="#">
                        <img src="./images/growing_business.jpg" alt="Руки на ноутбуке" width="370" height="294">
-                       <h2 class="titel">Growing Business</h2>
+                       <h2 class="title">Growing Business</h2>
                        <p class="category">Приложение</p>
                        </a>
                    </li>
@@ -146,19 +137,20 @@
            </section>
         </main>
         <!-- Footer -->
-        <footer>
+        <footer class="footer">
             <a class="site-footer" href="./index.html">
                 <span class="web">Web</span>
                 <span class="studio">Studio</span>
             </a>
-           <address>
-               <p>г. Киев, пр-т Леси Украинки, 26</p>
+            <!-- Addresses -->
+           <address class="addresses"> 
+               <p class="map">г. Киев, пр-т Леси Украинки, 26</p>
                <ul>
                    <li>
-                       <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                       <a class="with-us" href="mailto:info@devstudio.com">info@devstudio.com</a>
                    </li>
                    <li>
-                       <a href="tel:+380961111111">+38 096 111 11 11</a>
+                       <a class="with-us" href="tel:+380961111111">+38 096 111 11 11</a>
                    </li>
                </ul>
            </address>

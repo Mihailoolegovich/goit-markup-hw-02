@@ -100,6 +100,7 @@ a {
 /* Main title */
 .main {
   background-color: var(--background-color);
+  text-align: center;
 }
 .main .title {
   color: var(--primary-white-color);
@@ -114,6 +115,7 @@ a {
   font-size: 16px;
   line-height: 1.9;
   cursor: pointer;
+  text-align: center;
 }
 .main .button:hover,
 .main .button:focus {
@@ -138,6 +140,7 @@ a {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.2;
+  text-align: center;
 }
 /* Team */
 .team {
@@ -148,6 +151,7 @@ a {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.2;
+  text-align: center;
 }
 .team .worker {
   color: var(--primary-color);

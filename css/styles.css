@@ -6,6 +6,7 @@
   --background-color: #2f303a;
   --primary-white-color: #ffffff;
   --secondary-background-color: #2f303a;
+  --primary-button-color: #f5f4fa;
 }
 body {
   color: var(--primary-color);
@@ -63,7 +64,7 @@ a {
 /* Footer */
 
 .footer,
-.footer > a {
+.footer a {
   background-color: var(--background-color);
   cursor: default;
 }
@@ -84,14 +85,14 @@ a {
   line-height: 1.7;
 }
 .footer .with-us {
-  color: var(--primary-text-color);
+  color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   line-height: 1.7;
 }
-.footer .with-us:hover,
+/* .footer .with-us:hover,
 .footer .with-us:focus {
-  color: rgba(255, 255, 255, 0.6);
-}
+  color: rgba(255, 255, 255, 0.6); 
+}*/
 
 /*  */
 /* Content with index */
@@ -103,11 +104,13 @@ a {
   text-align: center;
 }
 .main .title {
+  text-transform: uppercase;
   color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
 }
+
 .main .button {
   color: var(--primary-white-color);
   background-color: var(--accent-coolor);
@@ -171,6 +174,7 @@ a {
 
 /* Buttons */
 .buttons .filter {
+  background-color: var(--primary-button-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
